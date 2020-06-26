@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <title>Contact</title>
+    <meta charset="uf-8">
+    <link rel="stylesheet" href="vitrine.css">
+
+    <head>
+        <h1>Summer Code Camp</h1>
+
+        <nav class="content">
+            <a class="left" href="vitrine-accueil.html">Accueil</a>
+            <a class="middle" href="vitrine-programme.html">Programme</a>
+            <a class="right" id="active" href="vitrine-contacts.html">Contact</a>
+        </nav>
+    </head>
+
+    <body>
+        <h2>CONTACT</h2>
+
+        <form method="POST" action="traitement.php">
+            <p>
+                <label>Votre Nom et Prénom : </label>
+                
+                <input type="text" name="Nom Prénom" id="pseudo" placeholder="Ex: Jean Meyer" size="30">
+            </p>
+            <p>
+                <label>Votre adresse e-mail : </label>
+                
+                <input type="text" name="Adresse e-mail" id="e-mail" placeholder="Ex: jean.meyer@gmail.com" size="30">
+            </p>
+            <p>
+                <label for="améliorer">Votre message : </label><br/>
+                <textarea name="Message du contact" id="message" placeholder="Ex: Comment améliorer mon site ?"></textarea>
+            </p>
+            <p><input type="submit" id="bouton" value="Envoyer"></p>
+        </form>
+    </body>
+    
+    <!--Pied de page-->
+    <br/>
+    <br/>
+    <br/>
+    <footer>
+        <a href="http://epitech.eu"><img src="assetD04/logo_epitech.png" alt="logo epitech"></a>
+    </footer>
+</html>

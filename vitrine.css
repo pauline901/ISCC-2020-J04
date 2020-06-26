@@ -1,0 +1,103 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    text-align: center;
+    width: 810px;
+    margin: auto;
+}
+header {
+    background-image: url('assetD04/texture-header.jpg');
+    text-align: center;
+    height: 150px;
+}
+.content {
+    display: inline-block;
+    background-color: #2e2f30;
+    color: white;
+    white-space: nowrap;
+    line-height: 5em;
+    height: 5em;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 90px;
+    text-align: right;
+    flex-direction: row;
+}
+.rigth {
+    width: 33%;
+    color: #17c1ff;/*couleur par défaut du menu*/
+}
+.left {
+    width: 33%;
+    color: #17c1ff;/*couleur par défaut du menu*/
+}
+.middle {
+    width: 33%;
+    color: #17c1ff;/*couleur par défaut du menu*/
+}
+#active {
+    color: #17c1ff;/*couleur de la page active du menu*/
+    font-weight: bold;
+}
+h1 {
+    src: url('../ISCC-2020-J04/nasalization-rg.ttf');
+    font-size: 40px;
+    color: #27d1ff;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 5em;
+    height: 5em;
+}
+h2 {
+    text-shadow: 2px 2px 4px black;
+    color: #e6e6e6;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: 750px;
+}
+table {
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    width: 810px;
+    height: 480px;
+}
+td, th {
+    border: 1px solid black;
+}
+textarea {
+    height: 200px;
+    width: 250px;
+    border: 2px #e6e6e6 solid;
+    
+}
+form {
+    width: 300px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+p, input[type=submit] {
+    text-align: center;
+}
+input {
+    border: #e6e6e6 2px solid;
+}
+.photo {
+    width: 150px;
+    height: 150px;
+}
+.imageflottante1 {
+    float: right;
+}
+.imageflottante2 {
+    float: left;
+}
